@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19E75009622793C93B499E5B /* Pods_Tammai_TammaiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E807BFE4A9CB4F1AB879D7 /* Pods_Tammai_TammaiUITests.framework */; };
+		C6209D93253A3B6C00468DF9 /* chatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6209D92253A3B6C00468DF9 /* chatModel.swift */; };
+		C6209D97253A40B300468DF9 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6209D96253A40B300468DF9 /* ChatTableViewCell.swift */; };
+		C651EA4B2532D9E90028E96F /* BlogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651EA4A2532D9E90028E96F /* BlogTableViewCell.swift */; };
+		C651EA4F2532DA8D0028E96F /* BlogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651EA4E2532DA8D0028E96F /* BlogModel.swift */; };
+		C651EA532532F4640028E96F /* BlogRecommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651EA522532F4640028E96F /* BlogRecommentTableViewCell.swift */; };
+		C651EA572532F50E0028E96F /* BlogRecommentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651EA562532F50E0028E96F /* BlogRecommentCollectionViewCell.swift */; };
+		C651EA5B2532F5570028E96F /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651EA5A2532F5570028E96F /* extensions.swift */; };
+		C651EA62253329180028E96F /* DetailBlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651EA61253329180028E96F /* DetailBlogViewController.swift */; };
+		C6877F29258391010014234E /* StickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6877F28258391000014234E /* StickerTableViewCell.swift */; };
+		C6877F312584A7840014234E /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6877F302584A7830014234E /* CardViewController.swift */; };
+		C6877F372584A7D20014234E /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6877F362584A7D20014234E /* CardViewController.xib */; };
+		C6877F47258549B40014234E /* CardStickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6877F46258549B40014234E /* CardStickerCollectionViewCell.swift */; };
+		C6A5768A2569892700E968D5 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A576892569892700E968D5 /* utils.swift */; };
+		C6A5769B2569947B00E968D5 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A5769A2569947B00E968D5 /* constants.swift */; };
+		C6AB5DB6257961E30097DAA0 /* ListContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AB5DB5257961E30097DAA0 /* ListContactViewController.swift */; };
+		C6AB5DD8257AC3430097DAA0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AB5DD7257AC3430097DAA0 /* ProfileViewController.swift */; };
+		C6AB5DEB257B94F00097DAA0 /* Opun-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6AB5DE8257B90900097DAA0 /* Opun-Regular.ttf */; };
+		C6AB5DEE257B94F20097DAA0 /* Opun-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6AB5DE7257B90900097DAA0 /* Opun-SemiBold.ttf */; };
+		C6AB5DEF257B94F50097DAA0 /* Opun-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6AB5DE6257B908F0097DAA0 /* Opun-Medium.ttf */; };
+		C6AB5DF4257C39990097DAA0 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AB5DF3257C39990097DAA0 /* CreateProfileViewController.swift */; };
+		C6AB5E15257C59720097DAA0 /* profile01.gif in Resources */ = {isa = PBXBuildFile; fileRef = C6AB5E14257C59720097DAA0 /* profile01.gif */; };
+		C6AB5E1D257C5E740097DAA0 /* profile06.gif in Resources */ = {isa = PBXBuildFile; fileRef = C6AB5E18257C5E710097DAA0 /* profile06.gif */; };
+		C6AB5E1E257C5E740097DAA0 /* profile05.gif in Resources */ = {isa = PBXBuildFile; fileRef = C6AB5E19257C5E710097DAA0 /* profile05.gif */; };
+		C6AB5E1F257C5E740097DAA0 /* profile04.gif in Resources */ = {isa = PBXBuildFile; fileRef = C6AB5E1A257C5E720097DAA0 /* profile04.gif */; };
+		C6AB5E20257C5E740097DAA0 /* profile02.gif in Resources */ = {isa = PBXBuildFile; fileRef = C6AB5E1B257C5E730097DAA0 /* profile02.gif */; };
+		C6AB5E21257C5E740097DAA0 /* profile03.gif in Resources */ = {isa = PBXBuildFile; fileRef = C6AB5E1C257C5E740097DAA0 /* profile03.gif */; };
+		C6C235ED25207D4D00678E36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6C235EC25207D4D00678E36 /* GoogleService-Info.plist */; };
+		C6C236202520A60A00678E36 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C2361F2520A60A00678E36 /* LoginViewController.swift */; };
+		C6C2362A2520A6B000678E36 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C236292520A6B000678E36 /* RegisterViewController.swift */; };
+		C6C236502520C0A800678E36 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C2364F2520C0A800678E36 /* TabBarController.swift */; };
+		C6C236552520CBBC00678E36 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C236542520CBBC00678E36 /* ChatViewController.swift */; };
+		C6C2365C2520CE2100678E36 /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C2365B2520CE2100678E36 /* BlogViewController.swift */; };
+		C6F18000257D797F00634C42 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F17FFF257D797F00634C42 /* SettingViewController.swift */; };
+		C6F18005257E676200634C42 /* ChangeProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F18004257E676200634C42 /* ChangeProfileViewController.swift */; };
+		C6F1800A257FF0B800634C42 /* ChangeDataUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F18009257FF0B800634C42 /* ChangeDataUserViewController.swift */; };
+		D590E4B184089F45684862CF /* Pods_Tammai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C039C83378AB843607924070 /* Pods_Tammai.framework */; };
+		F1C800012520794700DA7081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C8FFFF2520794700DA7081 /* Main.storyboard */; };
+		F1C800042520794700DA7081 /* Tammai.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1C800022520794700DA7081 /* Tammai.xcdatamodeld */; };
+		F1C800062520794B00DA7081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C800052520794B00DA7081 /* Assets.xcassets */; };
+		F1C800092520794B00DA7081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C800072520794B00DA7081 /* LaunchScreen.storyboard */; };
+		F1C800142520794C00DA7081 /* TammaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C800132520794C00DA7081 /* TammaiUITests.swift */; };
+		F1C8FFFA2520794700DA7081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8FFF92520794700DA7081 /* AppDelegate.swift */; };
+		F1C8FFFC2520794700DA7081 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8FFFB2520794700DA7081 /* SceneDelegate.swift */; };
+		F1C8FFFE2520794700DA7081 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8FFFD2520794700DA7081 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1C800102520794B00DA7081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C8FFEE2520794700DA7081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C8FFF52520794700DA7081;
+			remoteInfo = Tammai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20F033487EF533D69526EC04 /* Pods-Tammai-TammaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tammai-TammaiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tammai-TammaiUITests/Pods-Tammai-TammaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EF33B0C295CA18AEB7D8169 /* Pods-Tammai-TammaiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tammai-TammaiUITests.release.xcconfig"; path = "Target Support Files/Pods-Tammai-TammaiUITests/Pods-Tammai-TammaiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C039C83378AB843607924070 /* Pods_Tammai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tammai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6209D92253A3B6C00468DF9 /* chatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatModel.swift; sourceTree = "<group>"; };
+		C6209D96253A40B300468DF9 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		C651EA4A2532D9E90028E96F /* BlogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogTableViewCell.swift; sourceTree = "<group>"; };
+		C651EA4E2532DA8D0028E96F /* BlogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogModel.swift; sourceTree = "<group>"; };
+		C651EA522532F4640028E96F /* BlogRecommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogRecommentTableViewCell.swift; sourceTree = "<group>"; };
+		C651EA562532F50E0028E96F /* BlogRecommentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogRecommentCollectionViewCell.swift; sourceTree = "<group>"; };
+		C651EA5A2532F5570028E96F /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		C651EA61253329180028E96F /* DetailBlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBlogViewController.swift; sourceTree = "<group>"; };
+		C6877F28258391000014234E /* StickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerTableViewCell.swift; sourceTree = "<group>"; };
+		C6877F302584A7830014234E /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		C6877F362584A7D20014234E /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		C6877F46258549B40014234E /* CardStickerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6A576892569892700E968D5 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		C6A5769A2569947B00E968D5 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		C6AB5DB5257961E30097DAA0 /* ListContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContactViewController.swift; sourceTree = "<group>"; };
+		C6AB5DD7257AC3430097DAA0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C6AB5DE6257B908F0097DAA0 /* Opun-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Opun-Medium.ttf"; sourceTree = "<group>"; };
+		C6AB5DE7257B90900097DAA0 /* Opun-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Opun-SemiBold.ttf"; sourceTree = "<group>"; };
+		C6AB5DE8257B90900097DAA0 /* Opun-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Opun-Regular.ttf"; sourceTree = "<group>"; };
+		C6AB5DF3257C39990097DAA0 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		C6AB5E14257C59720097DAA0 /* profile01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = profile01.gif; sourceTree = "<group>"; };
+		C6AB5E18257C5E710097DAA0 /* profile06.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = profile06.gif; sourceTree = "<group>"; };
+		C6AB5E19257C5E710097DAA0 /* profile05.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = profile05.gif; sourceTree = "<group>"; };
+		C6AB5E1A257C5E720097DAA0 /* profile04.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = profile04.gif; sourceTree = "<group>"; };
+		C6AB5E1B257C5E730097DAA0 /* profile02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = profile02.gif; sourceTree = "<group>"; };
+		C6AB5E1C257C5E740097DAA0 /* profile03.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = profile03.gif; sourceTree = "<group>"; };
+		C6C235EC25207D4D00678E36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6C2361F2520A60A00678E36 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C6C236292520A6B000678E36 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C6C2364F2520C0A800678E36 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C6C236542520CBBC00678E36 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C6C2365B2520CE2100678E36 /* BlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
+		C6F17FFF257D797F00634C42 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		C6F18004257E676200634C42 /* ChangeProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeProfileViewController.swift; sourceTree = "<group>"; };
+		C6F18009257FF0B800634C42 /* ChangeDataUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDataUserViewController.swift; sourceTree = "<group>"; };
+		C9139B07F6BBA1754BAC33E1 /* Pods-Tammai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tammai.release.xcconfig"; path = "Target Support Files/Pods-Tammai/Pods-Tammai.release.xcconfig"; sourceTree = "<group>"; };
+		E7E807BFE4A9CB4F1AB879D7 /* Pods_Tammai_TammaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tammai_TammaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18D74F8FEF49ED3A5B0D06B /* Pods-Tammai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tammai.debug.xcconfig"; path = "Target Support Files/Pods-Tammai/Pods-Tammai.debug.xcconfig"; sourceTree = "<group>"; };
+		F1C800002520794700DA7081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1C800032520794700DA7081 /* Tammai.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tammai.xcdatamodel; sourceTree = "<group>"; };
+		F1C800052520794B00DA7081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C800082520794B00DA7081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1C8000A2520794B00DA7081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C8000F2520794B00DA7081 /* TammaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TammaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C800132520794C00DA7081 /* TammaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TammaiUITests.swift; sourceTree = "<group>"; };
+		F1C800152520794C00DA7081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C8FFF62520794700DA7081 /* Tammai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tammai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C8FFF92520794700DA7081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1C8FFFB2520794700DA7081 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1C8FFFD2520794700DA7081 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C8000C2520794B00DA7081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E75009622793C93B499E5B /* Pods_Tammai_TammaiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C8FFF32520794700DA7081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D590E4B184089F45684862CF /* Pods_Tammai.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2CAEA8C4C5524DADF697B31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F18D74F8FEF49ED3A5B0D06B /* Pods-Tammai.debug.xcconfig */,
+				C9139B07F6BBA1754BAC33E1 /* Pods-Tammai.release.xcconfig */,
+				20F033487EF533D69526EC04 /* Pods-Tammai-TammaiUITests.debug.xcconfig */,
+				6EF33B0C295CA18AEB7D8169 /* Pods-Tammai-TammaiUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6877F2F2584A7640014234E /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				C6877F412585430A0014234E /* Cell */,
+				C6877F302584A7830014234E /* CardViewController.swift */,
+				C6877F362584A7D20014234E /* CardViewController.xib */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		C6877F3A258531B00014234E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C6209D96253A40B300468DF9 /* ChatTableViewCell.swift */,
+				C6877F28258391000014234E /* StickerTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C6877F412585430A0014234E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C6877F46258549B40014234E /* CardStickerCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C6A57687256988AC00E968D5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C6A576892569892700E968D5 /* utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C6A57688256988D000E968D5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C651EA5A2532F5570028E96F /* extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C6A5769425698A8500E968D5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C6877F2F2584A7640014234E /* CardView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C6A576992569944200E968D5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C6A5769A2569947B00E968D5 /* constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C6AB5DAE257960600097DAA0 /* ListContact */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB5DB5257961E30097DAA0 /* ListContactViewController.swift */,
+			);
+			path = ListContact;
+			sourceTree = "<group>";
+		};
+		C6AB5DB1257961150097DAA0 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				C6877F3A258531B00014234E /* Cell */,
+				C6C236542520CBBC00678E36 /* ChatViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		C6AB5DB2257961400097DAA0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C651EA4A2532D9E90028E96F /* BlogTableViewCell.swift */,
+				C651EA522532F4640028E96F /* BlogRecommentTableViewCell.swift */,
+				C651EA562532F50E0028E96F /* BlogRecommentCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C6AB5DB3257961820097DAA0 /* ListBlog */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB5DB2257961400097DAA0 /* Cell */,
+				C6C2365B2520CE2100678E36 /* BlogViewController.swift */,
+			);
+			path = ListBlog;
+			sourceTree = "<group>";
+		};
+		C6AB5DB4257961970097DAA0 /* DetailBlog */ = {
+			isa = PBXGroup;
+			children = (
+				C651EA61253329180028E96F /* DetailBlogViewController.swift */,
+			);
+			path = DetailBlog;
+			sourceTree = "<group>";
+		};
+		C6AB5DD6257AC31D0097DAA0 /* Feature_Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C6F18008257FF09E00634C42 /* ChangeDataUser */,
+				C6F18003257E672100634C42 /* ChangeProfile */,
+				C6AB5DDE257AC3550097DAA0 /* Setting */,
+				C6AB5DDD257AC3490097DAA0 /* Profile */,
+			);
+			path = Feature_Profile;
+			sourceTree = "<group>";
+		};
+		C6AB5DDD257AC3490097DAA0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB5DD7257AC3430097DAA0 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C6AB5DDE257AC3550097DAA0 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				C6F17FFF257D797F00634C42 /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		C6AB5DE1257B88E90097DAA0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB5DE6257B908F0097DAA0 /* Opun-Medium.ttf */,
+				C6AB5DE8257B90900097DAA0 /* Opun-Regular.ttf */,
+				C6AB5DE7257B90900097DAA0 /* Opun-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C6AB5DF2257C393B0097DAA0 /* CreateProfile */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB5DF3257C39990097DAA0 /* CreateProfileViewController.swift */,
+			);
+			path = CreateProfile;
+			sourceTree = "<group>";
+		};
+		C6AB5E13257C594E0097DAA0 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB5E1B257C5E730097DAA0 /* profile02.gif */,
+				C6AB5E1C257C5E740097DAA0 /* profile03.gif */,
+				C6AB5E1A257C5E720097DAA0 /* profile04.gif */,
+				C6AB5E19257C5E710097DAA0 /* profile05.gif */,
+				C6AB5E18257C5E710097DAA0 /* profile06.gif */,
+				C6AB5E14257C59720097DAA0 /* profile01.gif */,
+			);
+			path = Gifs;
+			sourceTree = "<group>";
+		};
+		C6C2361C2520A5B100678E36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C651EA4E2532DA8D0028E96F /* BlogModel.swift */,
+				C6209D92253A3B6C00468DF9 /* chatModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6C2361D2520A5BE00678E36 /* ViewContaller */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB5DD6257AC31D0097DAA0 /* Feature_Profile */,
+				C6C2364F2520C0A800678E36 /* TabBarController.swift */,
+				C6C236582520CDD500678E36 /* Feature_Blog */,
+				C6C236532520CB8700678E36 /* Feature_Chat */,
+				C6C236272520A68C00678E36 /* Feature_Authentication */,
+				F1C8FFFD2520794700DA7081 /* ViewController.swift */,
+			);
+			path = ViewContaller;
+			sourceTree = "<group>";
+		};
+		C6C2361E2520A5E200678E36 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C6C2361F2520A60A00678E36 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C6C236272520A68C00678E36 /* Feature_Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB5DF2257C393B0097DAA0 /* CreateProfile */,
+				C6C236282520A69F00678E36 /* Register */,
+				C6C2361E2520A5E200678E36 /* Login */,
+			);
+			path = Feature_Authentication;
+			sourceTree = "<group>";
+		};
+		C6C236282520A69F00678E36 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				C6C236292520A6B000678E36 /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		C6C236532520CB8700678E36 /* Feature_Chat */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB5DB1257961150097DAA0 /* Chat */,
+				C6AB5DAE257960600097DAA0 /* ListContact */,
+			);
+			path = Feature_Chat;
+			sourceTree = "<group>";
+		};
+		C6C236582520CDD500678E36 /* Feature_Blog */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB5DB4257961970097DAA0 /* DetailBlog */,
+				C6AB5DB3257961820097DAA0 /* ListBlog */,
+			);
+			path = Feature_Blog;
+			sourceTree = "<group>";
+		};
+		C6F18003257E672100634C42 /* ChangeProfile */ = {
+			isa = PBXGroup;
+			children = (
+				C6F18004257E676200634C42 /* ChangeProfileViewController.swift */,
+			);
+			path = ChangeProfile;
+			sourceTree = "<group>";
+		};
+		C6F18008257FF09E00634C42 /* ChangeDataUser */ = {
+			isa = PBXGroup;
+			children = (
+				C6F18009257FF0B800634C42 /* ChangeDataUserViewController.swift */,
+			);
+			path = ChangeDataUser;
+			sourceTree = "<group>";
+		};
+		EF073742CA96BF2B03218538 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C039C83378AB843607924070 /* Pods_Tammai.framework */,
+				E7E807BFE4A9CB4F1AB879D7 /* Pods_Tammai_TammaiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1C800122520794C00DA7081 /* TammaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C800132520794C00DA7081 /* TammaiUITests.swift */,
+				F1C800152520794C00DA7081 /* Info.plist */,
+			);
+			path = TammaiUITests;
+			sourceTree = "<group>";
+		};
+		F1C8FFED2520794700DA7081 = {
+			isa = PBXGroup;
+			children = (
+				F1C8FFF82520794700DA7081 /* Tammai */,
+				F1C800122520794C00DA7081 /* TammaiUITests */,
+				F1C8FFF72520794700DA7081 /* Products */,
+				B2CAEA8C4C5524DADF697B31 /* Pods */,
+				EF073742CA96BF2B03218538 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C8FFF72520794700DA7081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C8FFF62520794700DA7081 /* Tammai.app */,
+				F1C8000F2520794B00DA7081 /* TammaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C8FFF82520794700DA7081 /* Tammai */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB5E13257C594E0097DAA0 /* Gifs */,
+				C6AB5DE1257B88E90097DAA0 /* Fonts */,
+				F1C8FFF92520794700DA7081 /* AppDelegate.swift */,
+				F1C8FFFB2520794700DA7081 /* SceneDelegate.swift */,
+				C6A57688256988D000E968D5 /* Extensions */,
+				C6A576992569944200E968D5 /* Constants */,
+				C6A57687256988AC00E968D5 /* Utils */,
+				C6A5769425698A8500E968D5 /* Components */,
+				C6C2361D2520A5BE00678E36 /* ViewContaller */,
+				C6C2361C2520A5B100678E36 /* Model */,
+				F1C8FFFF2520794700DA7081 /* Main.storyboard */,
+				F1C800052520794B00DA7081 /* Assets.xcassets */,
+				F1C800072520794B00DA7081 /* LaunchScreen.storyboard */,
+				F1C8000A2520794B00DA7081 /* Info.plist */,
+				F1C800022520794700DA7081 /* Tammai.xcdatamodeld */,
+				C6C235EC25207D4D00678E36 /* GoogleService-Info.plist */,
+			);
+			path = Tammai;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1C8000E2520794B00DA7081 /* TammaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C8001B2520794C00DA7081 /* Build configuration list for PBXNativeTarget "TammaiUITests" */;
+			buildPhases = (
+				FE14443B18FE58F04185F259 /* [CP] Check Pods Manifest.lock */,
+				F1C8000B2520794B00DA7081 /* Sources */,
+				F1C8000C2520794B00DA7081 /* Frameworks */,
+				F1C8000D2520794B00DA7081 /* Resources */,
+				6F2EED6F3E735591F600B2FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C800112520794B00DA7081 /* PBXTargetDependency */,
+			);
+			name = TammaiUITests;
+			productName = TammaiUITests;
+			productReference = F1C8000F2520794B00DA7081 /* TammaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F1C8FFF52520794700DA7081 /* Tammai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C800182520794C00DA7081 /* Build configuration list for PBXNativeTarget "Tammai" */;
+			buildPhases = (
+				96B75A9904146775F96B98F8 /* [CP] Check Pods Manifest.lock */,
+				F1C8FFF22520794700DA7081 /* Sources */,
+				F1C8FFF32520794700DA7081 /* Frameworks */,
+				F1C8FFF42520794700DA7081 /* Resources */,
+				4E2CA6B3A790335C56DE8FE6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tammai;
+			productName = Tammai;
+			productReference = F1C8FFF62520794700DA7081 /* Tammai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C8FFEE2520794700DA7081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = maneeboonyal.;
+				TargetAttributes = {
+					F1C8000E2520794B00DA7081 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F1C8FFF52520794700DA7081;
+					};
+					F1C8FFF52520794700DA7081 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = F1C8FFF12520794700DA7081 /* Build configuration list for PBXProject "Tammai" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1C8FFED2520794700DA7081;
+			productRefGroup = F1C8FFF72520794700DA7081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C8FFF52520794700DA7081 /* Tammai */,
+				F1C8000E2520794B00DA7081 /* TammaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C8000D2520794B00DA7081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C8FFF42520794700DA7081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AB5E20257C5E740097DAA0 /* profile02.gif in Resources */,
+				C6AB5E21257C5E740097DAA0 /* profile03.gif in Resources */,
+				F1C800092520794B00DA7081 /* LaunchScreen.storyboard in Resources */,
+				C6C235ED25207D4D00678E36 /* GoogleService-Info.plist in Resources */,
+				C6877F372584A7D20014234E /* CardViewController.xib in Resources */,
+				F1C800062520794B00DA7081 /* Assets.xcassets in Resources */,
+				C6AB5E15257C59720097DAA0 /* profile01.gif in Resources */,
+				C6AB5E1F257C5E740097DAA0 /* profile04.gif in Resources */,
+				C6AB5DEE257B94F20097DAA0 /* Opun-SemiBold.ttf in Resources */,
+				C6AB5DEF257B94F50097DAA0 /* Opun-Medium.ttf in Resources */,
+				C6AB5E1D257C5E740097DAA0 /* profile06.gif in Resources */,
+				C6AB5E1E257C5E740097DAA0 /* profile05.gif in Resources */,
+				C6AB5DEB257B94F00097DAA0 /* Opun-Regular.ttf in Resources */,
+				F1C800012520794700DA7081 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E2CA6B3A790335C56DE8FE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tammai/Pods-Tammai-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tammai/Pods-Tammai-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tammai/Pods-Tammai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F2EED6F3E735591F600B2FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tammai-TammaiUITests/Pods-Tammai-TammaiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tammai-TammaiUITests/Pods-Tammai-TammaiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tammai-TammaiUITests/Pods-Tammai-TammaiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B75A9904146775F96B98F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tammai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE14443B18FE58F04185F259 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tammai-TammaiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C8000B2520794B00DA7081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C800142520794C00DA7081 /* TammaiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C8FFF22520794700DA7081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C800042520794700DA7081 /* Tammai.xcdatamodeld in Sources */,
+				C6AB5DB6257961E30097DAA0 /* ListContactViewController.swift in Sources */,
+				C651EA572532F50E0028E96F /* BlogRecommentCollectionViewCell.swift in Sources */,
+				F1C8FFFE2520794700DA7081 /* ViewController.swift in Sources */,
+				C6877F47258549B40014234E /* CardStickerCollectionViewCell.swift in Sources */,
+				C6209D97253A40B300468DF9 /* ChatTableViewCell.swift in Sources */,
+				C6877F312584A7840014234E /* CardViewController.swift in Sources */,
+				C6209D93253A3B6C00468DF9 /* chatModel.swift in Sources */,
+				C651EA4B2532D9E90028E96F /* BlogTableViewCell.swift in Sources */,
+				C651EA532532F4640028E96F /* BlogRecommentTableViewCell.swift in Sources */,
+				C6C236552520CBBC00678E36 /* ChatViewController.swift in Sources */,
+				F1C8FFFA2520794700DA7081 /* AppDelegate.swift in Sources */,
+				C6C2362A2520A6B000678E36 /* RegisterViewController.swift in Sources */,
+				C6C2365C2520CE2100678E36 /* BlogViewController.swift in Sources */,
+				C651EA4F2532DA8D0028E96F /* BlogModel.swift in Sources */,
+				C651EA5B2532F5570028E96F /* extensions.swift in Sources */,
+				C6F18005257E676200634C42 /* ChangeProfileViewController.swift in Sources */,
+				C6AB5DF4257C39990097DAA0 /* CreateProfileViewController.swift in Sources */,
+				C6F1800A257FF0B800634C42 /* ChangeDataUserViewController.swift in Sources */,
+				C6C236502520C0A800678E36 /* TabBarController.swift in Sources */,
+				C6C236202520A60A00678E36 /* LoginViewController.swift in Sources */,
+				F1C8FFFC2520794700DA7081 /* SceneDelegate.swift in Sources */,
+				C6F18000257D797F00634C42 /* SettingViewController.swift in Sources */,
+				C6A5768A2569892700E968D5 /* utils.swift in Sources */,
+				C6AB5DD8257AC3430097DAA0 /* ProfileViewController.swift in Sources */,
+				C6877F29258391010014234E /* StickerTableViewCell.swift in Sources */,
+				C651EA62253329180028E96F /* DetailBlogViewController.swift in Sources */,
+				C6A5769B2569947B00E968D5 /* constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1C800112520794B00DA7081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C8FFF52520794700DA7081 /* Tammai */;
+			targetProxy = F1C800102520794B00DA7081 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1C800072520794B00DA7081 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C800082520794B00DA7081 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F1C8FFFF2520794700DA7081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C800002520794700DA7081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1C800162520794C00DA7081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1C800172520794C00DA7081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1C800192520794C00DA7081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18D74F8FEF49ED3A5B0D06B /* Pods-Tammai.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tammai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Maneeboonya.Tammai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F1C8001A2520794C00DA7081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9139B07F6BBA1754BAC33E1 /* Pods-Tammai.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tammai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Maneeboonya.Tammai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F1C8001C2520794C00DA7081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F033487EF533D69526EC04 /* Pods-Tammai-TammaiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UWHYY34XP;
+				INFOPLIST_FILE = TammaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TammaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tammai;
+			};
+			name = Debug;
+		};
+		F1C8001D2520794C00DA7081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF33B0C295CA18AEB7D8169 /* Pods-Tammai-TammaiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UWHYY34XP;
+				INFOPLIST_FILE = TammaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TammaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tammai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C800182520794C00DA7081 /* Build configuration list for PBXNativeTarget "Tammai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C800192520794C00DA7081 /* Debug */,
+				F1C8001A2520794C00DA7081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C8001B2520794C00DA7081 /* Build configuration list for PBXNativeTarget "TammaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C8001C2520794C00DA7081 /* Debug */,
+				F1C8001D2520794C00DA7081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C8FFF12520794700DA7081 /* Build configuration list for PBXProject "Tammai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C800162520794C00DA7081 /* Debug */,
+				F1C800172520794C00DA7081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1C800022520794700DA7081 /* Tammai.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1C800032520794700DA7081 /* Tammai.xcdatamodel */,
+			);
+			currentVersion = F1C800032520794700DA7081 /* Tammai.xcdatamodel */;
+			path = Tammai.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F1C8FFEE2520794700DA7081 /* Project object */;
+}
